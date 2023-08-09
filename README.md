@@ -1,7 +1,6 @@
-- 👋 Hi, I’m @thenameissujaa
-- 👀 I’m interested in Artificial Intelligence
+- 👋 Hi, I’m @thenameissujaa 
+#Sujan
 - 🌱 I’m currently learning Python And Front End Developing Skills
-- 💞️ I’m looking to collaborate on ...
 You can reach me on Instagram @thenameissujaa
 
 <!---

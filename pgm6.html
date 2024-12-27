@@ -1,0 +1,53 @@
+<html
+>
+<head>
+<script type="text/javascript">
+function add()
+{
+var a1=document.getElementById("t1").value;
+var a2=document.getElementById("t2").value;
+var a3=parseInt(a1) + parseInt(a2);
+t3.value=a3;
+}
+function sub()
+{
+var a1=document.getElementById("t1").value;
+var a2=document.getElementById("t2").value;
+var a3=parseInt(a1) - parseInt(a2);
+t3.value=a3;
+}
+function mul()
+{
+var a1=document.getElementById("t1").value;
+var a2=document.getElementById("t2").value;
+var a3=parseInt(a1) * parseInt(a2);
+t3.value=a3;
+}
+function div()
+{
+var a1=document.getElementById("t1").value;
+var a2=document.getElementById("t2").value;
+var a3=parseInt(a1) / parseInt(a2);
+t3.value=a3;
+}
+function mod()
+{
+var a1=document.getElementById("t1").value;
+var a2=document.getElementById("t2").value;
+var a3=parseInt(a1) % parseInt(a2);
+t3.value=a3;
+}
+</script>
+</head>
+<body>
+<h1>Simple Calculator </h1>
+num1 <input type="text" id="t1" style="color:red"/><br>
+num2 <input type="text" id="t2" style="color:red"/><br><br>
+result <input type="text" id="t3" style="color:green"/> <br><br>
+<input id="b1" type="submit" onclick="add()" value="+" style="color:red";/>
+<input id="b2" type="submit" onclick="sub()" value=" -" />
+<input id="b3" type="submit" onclick="mul()" value=" *" />
+<input id="b4" type="submit" onclick="div()" value=" /" />
+<input id="b5" type="submit" onclick="mod()" value=" %" />
+</body>
+</html>
